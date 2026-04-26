@@ -2,8 +2,8 @@ spring.application.name=product-service
 server.port=8082
 
 spring.datasource.url=jdbc:postgresql://localhost:5434/shopflow_products
-spring.datasource.username=ali
-spring.datasource.password=23393540
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
 
 spring.jpa.hibernate.ddl-auto=none
 spring.jpa.open-in-view=false
@@ -12,6 +12,4 @@ spring.data.redis.host=localhost
 spring.data.redis.port=6379
 spring.cache.type=redis
 
-spring.elasticsearch.uris=http://localhost:9200
-
-jwt.secret=5fa391c494a25ef4659a3d53135cb6fce2d7e6fe0b607f3aaa02a3e9f650e4c8
+jwt.secret=your_jwt_secret_here
